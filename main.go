@@ -6,7 +6,7 @@ import "fmt"
 func main() {
 
 	// declare var and default value of string is ""
-	// var name string
+	// var name, lastname string
 
 	// declare and assign value
 	name := "rub3n"
