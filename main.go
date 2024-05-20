@@ -1,15 +1,10 @@
 // packaga similar to namespace use
 package main
 
-import "fmt"
+import "github.com/aiuoe/go_learn/basics"
 
 func main() {
-
-	// declare var and default value of string is ""
-	// var name, lastname string
-
-	// declare and assign value
-	name := "rub3n"
-
-	fmt.Printf("Hello %s \n", name)
+	basics.Vars()
+	basics.Consts()
+	basics.Types()
 }
