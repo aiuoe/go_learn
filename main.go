@@ -5,5 +5,11 @@ import "fmt"
 
 func main() {
 
-	fmt.Println("Hello World!")
+	// declare var and default value of string is ""
+	// var name string
+
+	// declare and assign value
+	name := "rub3n"
+
+	fmt.Printf("Hello %s \n", name)
 }
