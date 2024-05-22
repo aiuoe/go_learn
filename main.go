@@ -5,7 +5,8 @@ import (
 	// "fmt"
 
 	_ "github.com/aiuoe/go_learn/basics"
-	flowcontrols "github.com/aiuoe/go_learn/flow_controls"
+	"github.com/aiuoe/go_learn/data"
+	_ "github.com/aiuoe/go_learn/flow_controls"
 )
 
 func main() {
@@ -32,5 +33,12 @@ func main() {
 
 	// fmt.Println("Divide:", divideResult)
 
-	flowcontrols.Menu()
+	// flowcontrols.Menu()
+
+	// data.Array()
+	// data.Slices()
+	// data.Map()
+	// data.Structs()
+	// data.Pointers()
+	data.Menu()
 }
