@@ -2,10 +2,9 @@
 package main
 
 import (
-	// "fmt"
-
 	_ "github.com/aiuoe/go_learn/basics"
-	"github.com/aiuoe/go_learn/data"
+	_ "github.com/aiuoe/go_learn/data"
+	_errors "github.com/aiuoe/go_learn/errors"
 	_ "github.com/aiuoe/go_learn/flow_controls"
 )
 
@@ -40,5 +39,7 @@ func main() {
 	// data.Map()
 	// data.Structs()
 	// data.Pointers()
-	data.Menu()
+	// data.Menu()
+
+	_errors.Handler()
 }
