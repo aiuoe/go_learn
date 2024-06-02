@@ -44,5 +44,6 @@ func main() {
 	// _errors.Handler()
 	// _errors.Defer()
 	// _errors.Panic()
-	_errors.Logger()
+	// _errors.Logger()
+	_errors.Contacts()
 }
