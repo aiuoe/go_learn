@@ -41,5 +41,8 @@ func main() {
 	// data.Pointers()
 	// data.Menu()
 
-	_errors.Handler()
+	// _errors.Handler()
+	// _errors.Defer()
+	// _errors.Panic()
+	_errors.Logger()
 }
