@@ -23,4 +23,4 @@ go.work
 *.txt
 *.log
 *.json
-*.sqlite
+*.db

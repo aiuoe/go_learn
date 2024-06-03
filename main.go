@@ -4,7 +4,7 @@ package main
 import (
 	_ "github.com/aiuoe/go_learn/basics"
 	_ "github.com/aiuoe/go_learn/data"
-	_errors "github.com/aiuoe/go_learn/errors"
+	"github.com/aiuoe/go_learn/database"
 	_ "github.com/aiuoe/go_learn/flow_controls"
 )
 
@@ -45,5 +45,7 @@ func main() {
 	// _errors.Defer()
 	// _errors.Panic()
 	// _errors.Logger()
-	_errors.Contacts()
+	// _errors.Contacts()
+
+	database.TaskManager()
 }
