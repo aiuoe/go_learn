@@ -5,7 +5,7 @@ import (
 	_ "github.com/aiuoe/go_learn/basics"
 	_ "github.com/aiuoe/go_learn/data"
 	_ "github.com/aiuoe/go_learn/flow_controls"
-	"github.com/aiuoe/go_learn/routines"
+	"github.com/aiuoe/go_learn/func_advanced"
 )
 
 func main() {
@@ -53,5 +53,9 @@ func main() {
 	// poo.ExecStruct()
 	// poo.ExecInterface()
 
-	routines.Api()
+	// routines.Api()
+
+	// func_advanced.Variadic()
+	// func_advanced.Recursive()
+	func_advanced.Clousure()
 }
