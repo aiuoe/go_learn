@@ -2,6 +2,7 @@ package gomodule
 
 import (
 	"fmt"
+	"log"
 	"math/rand"
 )
 
@@ -37,4 +38,26 @@ func randonMessage() string {
 	}
 
 	return message[rand.Intn(len(message))]
+}
+
+func Exec() {
+	greeting, err := Hello("rub3n")
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	log.Println(greeting)
+
+	names := []string{"rub3n", "adriana", "keiler"}
+
+	messages, err := Greeter(names)
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	for _, message := range messages {
+		log.Println(message)
+	}
 }

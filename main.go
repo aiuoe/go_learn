@@ -2,12 +2,10 @@
 package main
 
 import (
-	"log"
-
 	_ "github.com/aiuoe/go_learn/basics"
 	_ "github.com/aiuoe/go_learn/data"
 	_ "github.com/aiuoe/go_learn/flow_controls"
-	"github.com/aiuoe/gomodule"
+	"github.com/aiuoe/go_learn/poo"
 )
 
 func main() {
@@ -51,23 +49,7 @@ func main() {
 
 	// database.TaskManager()
 
-	greeting, err := gomodule.Hello("rub3n")
-
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	log.Println(greeting)
-
-	names := []string{"rub3n", "adriana", "neil"}
-
-	messages, err := gomodule.Greeter(names)
-
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	for _, message := range messages {
-		log.Println(message)
-	}
+	// gomodule.Exec()
+	// poo.ExecStruct()
+	poo.ExecInterface()
 }
