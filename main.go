@@ -5,7 +5,7 @@ import (
 	_ "github.com/aiuoe/go_learn/basics"
 	_ "github.com/aiuoe/go_learn/data"
 	_ "github.com/aiuoe/go_learn/flow_controls"
-	"github.com/aiuoe/go_learn/poo"
+	"github.com/aiuoe/go_learn/routines"
 )
 
 func main() {
@@ -51,5 +51,7 @@ func main() {
 
 	// gomodule.Exec()
 	// poo.ExecStruct()
-	poo.ExecInterface()
+	// poo.ExecInterface()
+
+	routines.Api()
 }
