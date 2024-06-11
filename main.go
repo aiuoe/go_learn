@@ -5,7 +5,7 @@ import (
 	_ "github.com/aiuoe/go_learn/basics"
 	_ "github.com/aiuoe/go_learn/data"
 	_ "github.com/aiuoe/go_learn/flow_controls"
-	"github.com/aiuoe/go_learn/func_advanced"
+	"github.com/aiuoe/go_learn/generics"
 )
 
 func main() {
@@ -57,5 +57,6 @@ func main() {
 
 	// func_advanced.Variadic()
 	// func_advanced.Recursive()
-	func_advanced.Clousure()
+	// func_advanced.Clousure()
+	generics.Constrains()
 }
